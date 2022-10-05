@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/User/Desktop/study/2kurs/py/Teachers_GUI/main.py</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">main.MainWindow</node>
+    <node x="333.0" y="503.6750330250992">modules.ui_functions.UIFunctions</node>
+    <node x="334.0" y="0.0">widgets.settings.SettingsWindow</node>
+    <node x="336.5" y="255.8916776750331">widgets.one_pop_up.OnePopUp</node>
+    <node x="327.0" y="379.78335535006613">widgets.one_favorites.OneFavorites</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="modules.ui_functions.UIFunctions" target="main.MainWindow" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="457.0" y="654.0" />
+      <point x="144.5" y="654.0" />
+      <point x="0.0" y="314.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7646464646464647" showDependencies="false" x="621.0" y="411.0" />
+  <SelectedNodes>
+    <node>modules.ui_functions.UIFunctions</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

@@ -1,0 +1,167 @@
+QWidget {
+background-color: rgb(255, 255, 255);
+}
+
+#frame_top_menus .QPushButton {
+	border: 0px solid;
+	text-align: left;
+	padding: 0px 25px 0px 25px;
+	font: 600 11pt "Mulish SemiBold";
+	icon-size: 25px;
+}
+#frame_toggle .QPushButton {	
+	border: 0px solid;
+	text-align: left;
+	padding: 0px 25px 0px 23px;
+	font: 600 11pt "Mulish SemiBold";
+	icon-size: 25px;
+}
+#frame_top .QPushButton {	
+	border: 0px solid;
+	border-left: 0px solid transparent;
+	text-align: left;
+	icon-size: 25px;
+}
+#frame_top_menus .QPushButton:hover {
+	background-color: rgb(40, 44, 52);
+}
+#frame_top_menus .QPushButton:pressed {	
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+/* /////////////////////////////////////////////////////////////////
+QListWidget */
+QListWidget {
+	border-radius: 5px;
+	padding: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(0, 133, 255);
+	font-size: 18pt
+}
+QListWidget::item {
+   height: 40px;
+}
+QListWidget  QScrollBar:vertical {
+    width: 20px;
+ }
+QListWidget  QScrollBar:horizontal {
+    height: 20px;
+ }
+QListWidget:hover {
+	border: 2px solid rgb(255, 255, 255);
+}
+QListWidget:focus {
+	border: 2px solid rgb(255, 255, 255);
+}
+
+#list_teachers QLabel{
+	border-color: #e2e2e2;
+	font: 12pt;
+}
+#list_favorites QLabel{
+	border-color: #e2e2e2;
+	font: 12pt;
+}
+/* /////////////////////////////////////////////////////////////////
+LineEdit */
+QLineEdit {
+	background-color: #e2e2e2;
+	border-radius: 5px;
+	border: 2px solid #939393;
+	padding-left: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(40, 44, 52);
+    color: #323232;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(40, 44, 52);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(0, 133, 255);
+}
+/* /////////////////////////////////////////////////////////////////
+TimeEdit */
+QTimeEdit {
+	background-color: #e2e2e2;
+	border-radius: 5px;
+	border: 2px solid #939393;
+	padding-left: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(0, 133, 255);
+    color: #323232;
+}
+QTimeEdit:hover {
+	border: 2px solid rgb(40, 44, 52);
+}
+QTimeEdit:focus {
+	border: 2px solid rgb(0, 133, 255);
+}
+/* /////////////////////////////////////////////////////////////////
+ComboBox */
+QDateEdit{
+	border-radius: 5px;
+	border: 2px solid #939393;
+	padding: 5px;
+	padding-left: 10px;
+}
+QDateEdit:hover{
+	border: 2px solid rgb(40, 44, 52);
+}
+QDateEdit::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 25px; 
+	border-left-width: 3px;
+	border-left-color: #939393;
+	border-left-style: solid;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;	
+	background-image: url(:/images/icons/cil-arrow-bottom.png);
+	background-position: center;
+	background-repeat: no-reperat;
+ }
+/* /////////////////////////////////////////////////////////////////
+QCalendarWidget */
+QCalendarWidget QToolButton{
+color: #000;
+}
+/* /////////////////////////////////////////////////////////////////
+Button */
+#frame_pages QPushButton {
+	border: 2px solid #939393;
+	border-radius: 5px;	
+	background-color: #e2e2e2;
+    color: #000;
+}
+#frame_pages QPushButton:hover {
+	border: 2px solid rgb(40, 44, 52);
+}
+#frame_pages QPushButton:pressed {	
+	border: 2px solid rgb(0, 133, 255);
+}
+
+#top_bar QFrame{
+     background-color: #f0f0f0;
+}
+
+#frame_settings QPushButton{
+    background-color: #f0f0f0;
+}
+
+#frame_pages QComboBox {
+	border: 2px solid #939393;
+	border-radius: 5px;
+	background-color: #e2e2e2;
+    color: #000;
+}
+
+QComboBox::drop-down
+{
+    border: 0px; /* This seems to replace the whole arrow of the combo box */
+}
+
+QComboBox::down-arrow {
+    image: url(images/icons/arrow.png);
+    width: 10px;
+    height: 10px;
+}
